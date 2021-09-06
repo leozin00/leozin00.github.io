@@ -1,0 +1,25 @@
+.foto{
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+.buttonIcon{
+  font-size: 40px;
+  color: #fff;
+}
+
+#navbar{
+  padding: 0 15px;
+}
+
+.buttonDev{
+  margin: 5px;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
