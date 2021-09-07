@@ -10,6 +10,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { NavbarModule } from './layout/navbar/navbar.module';
 import { HomeModule } from './pages/home/home.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { environment } from 'src/environments/environment';
+import * as firebase from 'firebase/app';
+
+firebase.initializeApp(environment.firebase);
 @NgModule({
   declarations: [
     AppComponent

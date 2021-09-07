@@ -4,14 +4,20 @@
     <app-navbar></app-navbar>
   </div>
 
-  <main class="w-100-p">
+  <div class="content" fxFlex="100" fxLayout="column" fxLayoutAlign="none center">
 
-    <div class="content" fxFlex="100" fxLayout="column" fxLayoutAlign="none center">
+    <main class="w-100-p">
 
       <router-outlet></router-outlet>
 
-    </div>
+    </main>
 
-  </main>
+    <footer>
+      <app-footer></app-footer>
+    </footer>
+
+  </div>
+
+
 
 </div>
