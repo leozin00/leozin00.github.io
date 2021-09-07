@@ -19,6 +19,10 @@
   border: 1px solid white;
 }
 
+.blur:hover{
+  transform: 10px;
+}
+
 .blur:before{
   content: "";
   position: absolute;
@@ -42,4 +46,8 @@
   padding: 0 2em;
   padding-bottom: 15px;
   min-height: 100vh;
+}
+
+.icon{
+  margin: 0 5px;
 }
